@@ -42,7 +42,7 @@
 
   <script>
     function getCuaca() {
-      const kota = document.getElementById("Kediri").value;
+      const kota = document.getElementById("kota").value;
       const apiKey = "aaa5a409334c557264f3e6dee2ebf2b4"; //
 
       fetch(`https://api.openweathermap.org/data/2.5/weather?q=${kota}&appid=${apiKey}&units=metric`)
